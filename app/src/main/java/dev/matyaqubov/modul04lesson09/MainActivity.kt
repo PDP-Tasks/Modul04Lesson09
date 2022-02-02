@@ -25,7 +25,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         setContentView(R.layout.activity_main)
         initViews()
     }
-
     private fun initViews() {
         buttonTask1=findViewById(R.id.task1)
         buttonTask2=findViewById(R.id.task2)
@@ -43,7 +42,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
         lottie=findViewById(R.id.my_lottie)
         image=findViewById(R.id.img_anim)
-
 
     }
 
